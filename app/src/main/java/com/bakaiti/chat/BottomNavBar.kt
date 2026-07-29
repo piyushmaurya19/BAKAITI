@@ -6,7 +6,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.material.icons.filled.Chat
-import androidx.compose.material.icons.filled.People
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -24,7 +23,8 @@ data class NavTab(val label: String, val icon: androidx.compose.ui.graphics.vect
 
 val navTabs = listOf(
     NavTab("Chats", Icons.Default.Chat),
-    NavTab("Friends", Icons.Default.People),
+    // `People` icon caused a compilation error in CI; use `Person` instead to keep build green.
+    NavTab("Friends", Icons.Default.Person),
     NavTab("Profile", Icons.Default.Person),
     NavTab("Calls", Icons.Default.Call)
 )
