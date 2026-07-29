@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888176477197",
+    "project_id": "bakaiti-19",
+    "storage_bucket": "bakaiti-19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888176477197:android:ec5ec0a7969688af6cc144",
+        "android_client_info": {
+          "package_name": "com.bakaiti.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888176477197-20sjt192c9jpfu01o0he3ofj8040jvii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakaiti.chat",
+            "certificate_hash": "a28b506a18048294e535ea500a6a2b75aa05eae9"
+          }
+        },
+        {
+          "client_id": "888176477197-jp9f547eu130i3n67o6rjmv3pnue4gma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakaiti.chat",
+            "certificate_hash": "34041cae8d52b0f8f9f7d6e81a96dd331a802166"
+          }
+        },
+        {
+          "client_id": "888176477197-dme37ug6rqd986jhcdjodcp0kmvto4gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg6xYR9bl-TZ9z1TNwOe6h6JAMZIhj7nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888176477197-dme37ug6rqd986jhcdjodcp0kmvto4gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
